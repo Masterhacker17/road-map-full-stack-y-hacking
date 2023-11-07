@@ -1,0 +1,16 @@
+*{
+    font-family: 'ADLaM Display', cursive;
+    font-family: 'Lobster', cursive;
+    font-weight: 40px;
+    font-size: 20px;
+}
+/*la pseudo-clase active permite darle estilo cuando le das click a un boto, od icho
+de otra manera cambia el estilo del boton del que habiamos establecido al que le damos
+con la pseudoclase active*/
+.caja{
+    margin: 25px;
+    transition: all 1s;
+}
+.caja:focus{
+    background: blue;
+}
